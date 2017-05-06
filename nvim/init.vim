@@ -17,15 +17,19 @@ Plug 'freeo/vim-kalisi'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
+Plug 'rakr/vim-one'
 
 " Initialize plugin system
 call plug#end()
 
 " Set theme and tabline
-let g:airline_theme='kalisi'
+let g:airline_theme='bubblegum'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 " Set realative line numbers with absolute current line number
 set relativenumber
 set number
+
+colorscheme one
+set background=dark

@@ -1,2 +1,11 @@
 # dotfiles
-general collection of config files
+
+General collection of personal config files.
+
+Currently
+1. neovim
+2. i3 window manager
+
+
+
+
