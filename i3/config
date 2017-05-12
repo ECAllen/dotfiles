@@ -180,7 +180,8 @@ bar {
 }
 
 # turn off touchpad
-exec --no-startup-id synclient TouchpadOff=1
+exec --no-startup-id synclient TouchpadOff=0
+exec --no-startup-id synclient PalmMinWidth=6 
 
 # gnome systray apps
 #exec --no-startup-id gnome-panel

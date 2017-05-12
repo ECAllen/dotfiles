@@ -19,6 +19,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
 Plug 'rakr/vim-one'
 
+""" Misc
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'nelstrom/vim-markdown-folding'
+
 " Initialize plugin system
 call plug#end()
 
