@@ -27,7 +27,8 @@ Plug 'nelstrom/vim-markdown-folding'
 call plug#end()
 
 " Set theme and tabline
-let g:airline_theme='bubblegum'
+" let g:airline_theme='bubblegum'
+let g:airline_theme='one'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
@@ -35,5 +36,5 @@ let g:airline_powerline_fonts = 1
 set relativenumber
 set number
 
-colorscheme one
-set background=dark
+" colorscheme one
+set background=light
