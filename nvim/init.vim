@@ -36,5 +36,5 @@ let g:airline_powerline_fonts = 1
 set relativenumber
 set number
 
-" colorscheme one
-set background=light
+colorscheme one
+set background=dark

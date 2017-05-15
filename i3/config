@@ -25,7 +25,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec gnome-terminal 
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -182,7 +182,7 @@ bar {
 # turn off touchpad
 exec --no-startup-id synclient TouchpadOff=0
 exec --no-startup-id synclient PalmDetect=1 
-exec --no-startup-id synclient PalmMinWidth=4 
+exec --no-startup-id synclient PalmMinWidth=2 
 
 # gnome systray apps
 #exec --no-startup-id gnome-panel
@@ -204,10 +204,10 @@ exec --no-startup-id redshift-gtk -l 40.2479250:-74.2663210
 # exec --no-startup-id g15macro 
 # exec --no-startup-id xsetroot -solid "#333334"
 
-$feh ~/pics/red_sails.jpeg
+$feh ~/pics/car.jpeg
 
 # Automatically launch apps
-exec --no-startup-id i3-msg 'exec doc.fish'
+# exec --no-startup-id i3-msg 'exec doc.fish'
 # exec --no-startup-id i3-msg 'workspace 2; exec code'
 # exec --no-startup-id i3-msg 'workspace 2; exec gedit'
 # exec --no-startup-id i3-msg 'workspace 3; exec keepnote'
