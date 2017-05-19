@@ -22,6 +22,7 @@ Plug 'rakr/vim-one'
 """ Misc
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'nelstrom/vim-markdown-folding'
+Plug 'mattn/emmet-vim'
 
 " Initialize plugin system
 call plug#end()
@@ -32,9 +33,14 @@ let g:airline_theme='one'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
+" Setup emmet for html and css
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
 " Set realative line numbers with absolute current line number
 set relativenumber
 set number
+set smartindent
 
 colorscheme one
 set background=dark

@@ -6,6 +6,7 @@ Currently
 1. neovim
 2. i3 window manager
 3. alacritty
+4. polybar 
 
 
 
