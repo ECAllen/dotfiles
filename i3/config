@@ -183,11 +183,11 @@ bar {
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # touchpad settings
+exec --no-startup-id synclient TouchpadOff=1
 exec --no-startup-id synclient PalmDetect=1 
 exec --no-startup-id synclient PalmMinWidth=2 
 exec --no-startup-id synclient RBCornerButton=0 
 exec --no-startup-id synclient RTCornerButton=0 
-exec --no-startup-id synclient TouchpadOff=0
 exec --no-startup-id synclient VertEdgeScroll=0
 
 # gnome systray apps
