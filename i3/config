@@ -221,6 +221,7 @@ exec --no-startup-id redshift-gtk -l 40.2479250:-74.2663210
 # exec --no-startup-id hp-systray 
 # exec --no-startup-id g15macro 
 # exec --no-startup-id xsetroot -solid "#333334"
+exec --no-startup-id xscreensaver 
 
 $feh ~/pics/car.jpeg
 
