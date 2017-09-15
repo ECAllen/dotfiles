@@ -108,6 +108,7 @@ set $ws2 "2 dev"
 set $ws3 "3 util"
 set $ws4 "4 remote"
 set $ws5 "5 database"
+set $ws8 "8 comms" 
 set $ws9 "9 TODO"
 
 # rename workspaces
@@ -116,6 +117,7 @@ exec i3-msg rename workspace 2 to $ws2
 exec i3-msg rename workspace 3 to $ws3
 exec i3-msg rename workspace 4 to $ws4
 exec i3-msg rename workspace 5 to $ws5
+exec i3-msg rename workspace 8 to $ws8
 exec i3-msg rename workspace 9 to $ws9
 
 # switch to workspace
@@ -126,7 +128,7 @@ bindsym $mod+4 workspace number $ws4
 bindsym $mod+5 workspace number $ws5
 bindsym $mod+6 workspace number 6
 bindsym $mod+7 workspace number 7
-bindsym $mod+8 workspace number 8
+bindsym $mod+8 workspace number $ws8 
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number 10
 
