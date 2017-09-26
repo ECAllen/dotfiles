@@ -20,11 +20,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
 Plug 'rakr/vim-one'
-Plug 'Soares/base16.nvim'
+
+""" TODO revisit these at a later time
+" Plug 'Soares/base16.nvim'
 
 """ Misc
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'nelstrom/vim-markdown-folding'
+
+""" TODO revisit these at a later time
 """ Plug 'mattn/emmet-vim'
 
 " Initialize plugin system
@@ -36,7 +40,7 @@ let g:airline_theme='one'
 " let g:airline_theme='molokai'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:base16_airline=1
+" let g:base16_airline=1
 
 " Setup emmet for html and css
 " let g:user_emmet_install_global = 0
@@ -47,5 +51,5 @@ set relativenumber
 set number
 set smartindent
 
-" colorscheme ocean 
-" set background=dark
+colorscheme one 
+set background=dark
