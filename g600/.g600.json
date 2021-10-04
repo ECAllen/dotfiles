@@ -1,15 +1,15 @@
 [
   {
     "name": "dev",
-    "color": "#89abcd",
-    "normal": { // actions to be performed without the G-Shift button
-	"11": { 
+    "color": "89abcd",
+    "normal": { 
+	"UP": { "key": "Super_L+Control_L+Up" },
+	"DOWN": { "key": "Super_L+Control_L+Down" },
+	"10": { "cmd": "doom run" },
+        "11": { "key": "Super_L+t" }
     },
-    "mod": { // actions to be performed with the G-Shift button
-      "key code": {
-        "key": "the key to press", // or
-        "cmd": "a command to run"
-      }
+    "mod": { 
+      "10": { "key": "Space p p" }
     }
   }
 ]
