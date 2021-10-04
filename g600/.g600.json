@@ -3,13 +3,14 @@
     "name": "dev",
     "color": "89abcd",
     "normal": { 
-	"UP": { "key": "Super_L+Control_L+Up" },
-	"DOWN": { "key": "Super_L+Control_L+Down" },
-	"10": { "cmd": "doom run" },
-        "11": { "key": "Super_L+t" }
+      "UP": { "key": "Super_L+Control_L+Up" },
+      "DOWN": { "key": "Super_L+Control_L+Down" },
+      "10": { "cmd": "doom run" },
+      "11": { "key": "Super_L+t" }
     },
     "mod": { 
       "10": { "key": "Space p p" }
+      "11": { "key": "Space o e" }
     }
   }
 ]
