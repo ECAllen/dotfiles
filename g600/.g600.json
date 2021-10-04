@@ -1,0 +1,15 @@
+[
+  {
+    "name": "dev",
+    "color": "#89abcd",
+    "normal": { // actions to be performed without the G-Shift button
+	"11": { 
+    },
+    "mod": { // actions to be performed with the G-Shift button
+      "key code": {
+        "key": "the key to press", // or
+        "cmd": "a command to run"
+      }
+    }
+  }
+]
